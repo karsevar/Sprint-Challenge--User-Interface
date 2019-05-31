@@ -145,6 +145,33 @@ footer nav a {
     text-decoration: none;
 }
 
+/* nav bar */
+
+.static-nav {
+    width: 800px;
+    height: 60px;
+    margin-top: 10px;
+
+    display: flex;
+
+}
+
+.static-nav nav {
+    width: 600px;
+    height: 50px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.static-nav nav a {
+    text-decoration: none;
+    color: black;
+    font: 16px;
+    margin-top: 5px;
+}
+
 /* about.html */ 
 
 .header-content {
