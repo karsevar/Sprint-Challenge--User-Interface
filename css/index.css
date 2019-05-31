@@ -259,6 +259,10 @@ footer nav a {
     border-bottom-color: grey;
 }
 
+.block-level h3 {
+    margin-top: 10px;
+}
+
 button {
     background: white;
     border: 2px solid black;
