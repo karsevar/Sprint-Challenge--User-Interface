@@ -150,6 +150,7 @@ footer nav a {
 .header-content {
     width: 800px;
     margin-bottom: 20px;
+    margin-top: 20px;
     border-bottom-width: 2px;
     border-bottom-style: dashed;
     border-bottom-color: grey;
