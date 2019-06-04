@@ -95,23 +95,6 @@ p {
     margin-bottom: 0;
 }
 
-.middle-content .boxes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
-.middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
-    background: black;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +126,162 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* Extra space for the jumbo image */
+
+.top-content {
+    margin-top: 20px;
+}
+
+/* nav bar */
+
+.static-nav {
+    width: 800px;
+    height: 60px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    display: flex;
+
+}
+
+.static-nav nav {
+    width: 600px;
+    height: 50px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.static-nav nav a {
+    text-decoration: none;
+    color: black;
+    font: 16px;
+    margin-top: 5px;
+}
+
+/* Boxes CSS rules */
+
+.middle-content .boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.middle-content .box {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#box1 {
+    background: teal;
+}
+
+#box2 {
+    background: gold;
+}
+
+#box3 {
+    background: cadetblue;
+}
+
+#box4 {
+    background: coral;
+}
+
+#box5 {
+    background: crimson;
+}
+
+#box6 {
+    background: forestgreen;
+}
+
+#box7 {
+    background: darkorchid;
+}
+
+#box8 {
+    background: hotpink;
+}
+
+#box9 {
+    background: indigo;
+}
+
+#box10 {
+    background: dodgerblue;
+}
+
+
+/* about.html */ 
+
+.header-content {
+    width: 800px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-bottom-width: 2px;
+    border-bottom-style: dashed;
+    border-bottom-color: grey;
+
+}
+
+.header-content h3 {
+    margin-left: 20px;
+}
+
+.header-content p {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.about-blocks {
+    height: 850px;
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.block-level {
+    width: 370px;
+    height: 400px;
+    border-bottom-width: 2px;
+    border-bottom-style: dashed;
+    border-bottom-color: grey;
+}
+
+.block-level h3 {
+    margin-top: 10px;
+}
+
+button {
+    background: white;
+    border: 2px solid black;
+    width: 120px;
+    height: 30px;
+    border-radius: 6px;
+    font-size: 14px;
+
+    margin-top: 10px;
+}
+
+.footer-content {
+    height: 125px;
+    width: 800px;
+}
+
+.footer-content h3 {
+    margin-left: 18px;
+}
+
+.footer-content p {
+    margin-left: 18px;
 }
